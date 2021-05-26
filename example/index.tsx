@@ -6,7 +6,7 @@ import { Loader } from '../src'
 const App = () => {
   return (
     <div>
-      <Loader></Loader>
+      <Loader progress={0.4}></Loader>
     </div>
   )
 }

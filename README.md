@@ -7,20 +7,20 @@ Single paragraph about why this library exists
 Install
 
 ```bash
-yarn add library-name-fns
+yarn add creative-ui
 # or
-npm install --save library-name-fns
+npm install --save creative-ui
 ```
 
 Use
 
 ```typescript
-import { noop } from 'library-name-fns'
+import { noop } from 'creative-ui'
 
 console.log(noop()) // undefined
 ```
 
-[Examples](https://github.com/skulptur/library-name-fns/tree/master/example)
+[Examples](https://github.com/skulptur/creative-ui/tree/master/example)
 
 ## API
 

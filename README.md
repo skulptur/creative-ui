@@ -1,6 +1,4 @@
-## `library-name`
-
-Single paragraph about why this library exists
+## `creative-ui`
 
 ## Get started
 
@@ -15,24 +13,15 @@ npm install --save creative-ui
 Use
 
 ```typescript
-import { noop } from 'creative-ui'
+import { Loader } from 'creative-ui'
 
-console.log(noop()) // undefined
+const App = () => {
+  return (
+    <div>
+      <Loader progress={0.5}></Loader>
+    </div>
+  )
+}
 ```
 
 [Examples](https://github.com/skulptur/creative-ui/tree/master/example)
-
-## API
-
-- Pure functions.
-- The argument order is optimized for partial application.
-
-Exports:
-
-### noop
-
-`() => void`
-
-```typescript
-const nothing = noop() // undefined
-```
